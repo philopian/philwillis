@@ -1,0 +1,55 @@
+---
+title: "Third post"
+publishedAt: "2022-03-02"
+summary: "this is a summary..."
+image: "/assets/images/grey.jpeg"
+tags:
+  - Markdown
+---
+
+
+## H2 here
+
+TOPIC_DETAILS
+blah blah blah...
+
+### H3
+* topic content 1 [Reference](http://dibya.org)
+* Renders actual, "native" React DOM elements
+* Allows you to escape or skip HTML (try toggling the checkboxes above)
+* If you escape or skip the HTML, no `dangerouslySetInnerHTML` is used! Yay!
+
+
+## Getting started
+Preliminary question: 
+<button onClick={()=> alert(42)}>This is a button!!!</button>
+
+## HTML block below
+<blockquote>
+This blockquote will change based on the HTML settings above.
+</blockquote>
+
+## How about some code?
+
+```js
+var React = require('react');
+var Markdown = require('react-markdown');
+React.render(
+  <Markdown source="# Your markdown here" />,
+  document.getElementById('content')
+);
+```
+Pretty neat, eh?
+
+## Tables?
+| Feature   | Support |
+| --------- | ------- |
+| tables    | ✔ |
+| alignment | ✔ |
+| wewt      | ✔ |
+
+
+
+
+# Components loaded
+<Hello />

@@ -1,0 +1,14 @@
+# What's in this template
+- `nextjs` JS/React framework to create a static site
+  - `mdx-bundler` bundles our MDX content
+  - `gray-matter` font matter library
+  - `reading-time` estimates the reading time for our blog
+  - `rehype-slug` plugin to add id's to headings
+  - `rehype-code-titles` plugin to add titles for code block'
+  - `rehype-prism-plus` plugin to add code highlighting
+  - `rehype-autolink-headings` plugin to add links to headings
+  - `next-themes` allow for light/dark modes
+- `typescript` for types
+- `prettier` & `eslint` for linting
+- `vitest` for unit testing
+- `playwright` for e2e

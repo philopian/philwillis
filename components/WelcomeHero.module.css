@@ -1,0 +1,41 @@
+.section {
+  display: grid;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.25rem;
+  border-bottom: 1px rgba(200,200,200,0.8) solid;
+  
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.container {
+  display: flex;
+  margin-top: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  order: 2;
+  width: 100%;
+
+  @media (min-width: 1024px) {
+    order: 1;
+  }
+}
+
+.title {
+  color: #1f2937;
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  line-height: 1;
+}
+
+.content {
+  color: #4b5563;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 500;
+}
