@@ -33,7 +33,7 @@
     "@babel/core": "^7.18.0",
     "@headlessui/react": "^1.6.2",
     "@playwright/test": "^1.22.1",
-    "@storybook/addon-actions": "^6.5.3",
+    "@storybook/addon-actions": "^6.5.10",
     "@storybook/addon-essentials": "^6.5.3",
     "@storybook/addon-interactions": "^6.5.3",
     "@storybook/addon-links": "^6.5.3",
